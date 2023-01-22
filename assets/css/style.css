@@ -19,14 +19,7 @@ font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;
 }
 
-.container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-navbar {
+navbar .container{
     height: 100px;
     display: flex;
     align-items: center;
@@ -174,26 +167,25 @@ navbar a:hover {
 
 /* Products */
 .products-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
+    display: inline;
+    text-align: center;
+    align-items: center;
     font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 .products-container h2 {
     display: block;
     font-size: 36px;
-    margin: 80px 0;
-    justify-self: center;
+    margin: 80px 0 50px 0;
+    align-self: center;
     color: #000;
     font-family: 'Raleway', sans-serif !important;
 }
 
 .products-container span {
-    display: inline;
+    display: block;
     font-size: 18px;
-    margin: 0 0 20px 0;
-    justify-self: center;
+    align-self: center;
     color: var(--gray-color);
     line-height: 1.46;
 }
@@ -202,7 +194,9 @@ navbar a:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    grid-row-gap: 30px;
+    justify-items: center;
+    grid-row-gap: 100px;
+    margin: 50px 200px;
 }
 
 .products-grid :nth-child(2) {
@@ -261,14 +255,14 @@ navbar a:hover {
     width: 220px;
     padding: 12px 20px;
     margin: 80px 25px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     border: 2px solid #ccc;
     border-radius: 4px;
     color: #333;    
     place-items: var(--green-color);
     font-family: 'Source Sans Pro', sans-serif !important;
     font-size: 18px;
-    
+
 }
 
 ::placeholder {
@@ -413,6 +407,25 @@ navbar a:hover {
 }
 
 
+    /* Styles for mobile devices */
+@media only screen and (max-width: 768px) {
+    navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    navbar img {
+        margin-right: 0;
+    }
+
+    navbar ul {
+        justify-content: center;
+    }
+
+    .container {
+        padding: 50px;
+    }
+}
 
 
 
