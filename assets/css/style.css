@@ -23,7 +23,8 @@ navbar .container{
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-items: center;
+    justify-content: space-evenly;
     padding: 0 20px;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -35,12 +36,13 @@ navbar img {
 navbar ul {
     display: flex;
     list-style: none;
+    text-transform: uppercase;
     margin: 0;
     padding: 0;
 }
 
 navbar li {
-    margin-right: 20px;
+    margin-right: 35px;
 }
 
 navbar a {
