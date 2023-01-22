@@ -196,11 +196,11 @@ navbar a:hover {
     align-items: center;
     justify-items: center;
     grid-row-gap: 100px;
-    margin: 50px 200px;
+    margin: 50px;
 }
 
-.products-grid :nth-child(2) {
-    grid-template-columns: 2fr 1fr;
+.products-grid img {
+    height: 400px;
 }
 
 .products-grid h3 {
