@@ -56,6 +56,10 @@ navbar a:hover {
     color: var(--dark-color);
 }
 
+navbar .menu-icon {
+    display: none;
+}
+
 .main .container {
     height: 600px;
     background-image: url('/assets/images/bg-main.webp');
@@ -405,3 +409,141 @@ navbar a:hover {
 .footer a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 767px) {
+    navbar .container {
+      height: auto;
+      align-items: flex-start;
+      padding: 20px;
+    }
+    
+    navbar img {
+      height: 50px;
+      margin-bottom: 20px;
+    }
+    
+    navbar ul {
+        display: none;
+    }
+
+    navbar .menu-icon {
+        display: inline;
+    }
+    
+    .main .container {
+      height: auto;
+      background-position: top center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .container h1 {
+      font-size: 40px;
+      padding-left: 20px;
+    }
+    
+    .container p {
+      font-size: 24px;
+      padding-left: 20px;
+    }
+    
+    .container h2 {
+      font-size: 24px;
+      padding-left: 20px;
+    }
+
+    .history-container h2 {
+      font-size: 28px;
+    }        
+    .history-container span {
+        font-size: 16px;
+    }
+        
+    .history-grid {
+         grid-template-columns: 1fr;
+    }
+        
+    .img img {
+        padding: 0px 20px 20px 20px;
+    }
+        
+    .content h6 {
+        font-size: 22px;
+    }
+        
+    .content p, .content li {
+        font-size: 14px;
+    }
+
+    .products-container {
+        display: inline;
+        text-align: center;
+        align-items: center;
+        font-family: 'Source Sans Pro', sans-serif !important;
+    }
+        
+    .products-container h2 {
+        display: block;
+        font-size: 36px;
+        align-self: center;
+        color: #000;
+        font-family: 'Raleway', sans-serif !important;
+    }
+        
+    .products-container span {
+        display: inline;
+        font-size: 16px;
+        text-align: center;
+        align-self: center;
+        color: var(--gray-color);
+    }
+        
+    .products-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        grid-row-gap: 100px;
+    }
+        
+    .products-grid img {
+        height: 300px;
+    }
+        
+    .products-grid h3 {
+        font-size: 32px;
+        color: var(--gray-color);
+    }
+        
+    .products-grid p {
+        font-size: 16px;
+        color: #50555c;
+    }
+
+    .contact {
+        height: auto;
+    }
+        
+    .contact-container h2 {
+        font-size: 28px;
+    }
+        
+    .contact-container p {
+        font-size: 16px;
+    }
+        
+    .contact-container input[type="name"],
+    .contact-container input[type="email"] {
+        width: 250px;
+        font-size: 16px;
+    }
+        
+    .contact-container button {
+        width: 250px;
+        font-size: 14px;
+    }
+}
+      
+
+  
