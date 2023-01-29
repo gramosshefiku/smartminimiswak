@@ -429,6 +429,11 @@ navbar .menu-icon {
     navbar .menu-icon {
         display: inline;
     }
+
+    navbar .menu-icon img {
+        height: 40px;
+    }
+    
     
     .main .container {
       height: auto;
@@ -523,10 +528,12 @@ navbar .menu-icon {
 
     .contact {
         height: auto;
+        text-align: center;
     }
         
     .contact-container h2 {
         font-size: 28px;
+        margin: 0 auto;
     }
         
     .contact-container p {
@@ -537,16 +544,18 @@ navbar .menu-icon {
     .contact-container input[type="email"] {
         width: 250px;
         font-size: 16px;
+        margin: 30px auto;
     }
         
     .contact-container button {
         width: 250px;
         font-size: 14px;
+        margin: 30px auto 0 auto;
     }
 
     .shop {
         width: 100%;
-        padding: 15px;
+        text-align: center;
     }
     
     .shop-container {
@@ -588,8 +597,6 @@ navbar .menu-icon {
 
     .shop-content h3 {
         font-size: 20px;
-        margin-bottom: 15px;
-        padding-top: 100px;
         color: #50555c;
         font-family: 'Source Sans Pro', sans-serif !important;
     }
@@ -598,7 +605,6 @@ navbar .menu-icon {
         font-size: 18px;
         line-height: 1.5;
         color: var(--gray-color);
-        margin-bottom: 15px;
         font-family: 'Source Sans Pro', sans-serif !important;
     }
     
@@ -606,7 +612,6 @@ navbar .menu-icon {
         font-size: 15px;
         line-height: 1.5;
         color: #50555c;
-        margin-bottom: 15px;
         font-family: 'Source Sans Pro', sans-serif !important;
     }
     
