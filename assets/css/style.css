@@ -508,7 +508,7 @@ navbar .menu-icon {
     }
         
     .products-grid img {
-        height: 300px;
+        height: 250px;
     }
         
     .products-grid h3 {
@@ -542,6 +542,102 @@ navbar .menu-icon {
     .contact-container button {
         width: 250px;
         font-size: 14px;
+    }
+
+    .shop {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .shop-container {
+        margin: 0 auto;
+    }
+    
+    .shop h2 {
+        text-align: center;
+        font-size: 36px;
+        justify-self: center;
+        color: #000;
+        font-family: 'Raleway', sans-serif !important;
+    }
+    
+    .shop span {
+        text-align: center;
+        display: block;
+        font-size: 20px;
+        margin: 0 auto;
+        justify-self: center;
+        color: var(--gray-color);
+        line-height: 1.46;
+        font-family: 'Raleway', sans-serif !important;
+    }
+    
+    .shop-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+    
+    .shop-card img {
+        width: 100%;
+    }
+    
+    .shop img {
+        height: 400px;
+    }
+
+    .shop-content h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        padding-top: 100px;
+        color: #50555c;
+        font-family: 'Source Sans Pro', sans-serif !important;
+    }
+    
+    .shop-content h6 {
+        font-size: 18px;
+        line-height: 1.5;
+        color: var(--gray-color);
+        margin-bottom: 15px;
+        font-family: 'Source Sans Pro', sans-serif !important;
+    }
+    
+    .shop-content p {
+        font-size: 15px;
+        line-height: 1.5;
+        color: #50555c;
+        margin-bottom: 15px;
+        font-family: 'Source Sans Pro', sans-serif !important;
+    }
+    
+    .shop-container input[type="number"] {
+        width: 300px;
+        border-radius: 4px;
+        color: #333;    
+        place-items: var(--green-color);
+        font-family: 'Source Sans Pro', sans-serif !important;
+        font-size: 18px;
+        
+    }
+    
+    ::placeholder {
+        color: #bbb;
+    }
+    
+    
+    .shop-container button {
+        width: 300px;
+        background-color: var(--gray-color);
+        color: white;
+        border: none;
+        border-radius: 110px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-family: 'Source Sans Pro', sans-serif !important;
+        font-size: 15px;
+        font-weight: bold;
+        justify-self: center;
+        align-self: center;
     }
 }
       
